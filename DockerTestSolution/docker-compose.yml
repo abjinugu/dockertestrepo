@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  dockertestwebapi:
+    image: dockertestwebapi
+    build:
+      context: .\DockerTestWebAPI
+      dockerfile: Dockerfile
+
+  dockertestwebui:
+    image: dockertestwebui
+    build:
+      context: .\DockerTestWebUI
+      dockerfile: Dockerfile
+
