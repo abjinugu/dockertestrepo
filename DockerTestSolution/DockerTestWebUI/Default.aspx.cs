@@ -11,7 +11,7 @@ namespace DockerTestWebUI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lbltext.Text = Environment.GetEnvironmentVariable("ENVIRONMENT");
+            lbltext.Text = Environment.GetEnvironmentVariable("USERNAME");
         }
     }
 }
